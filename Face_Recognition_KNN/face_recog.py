@@ -37,7 +37,7 @@ face_cascade = cv.CascadeClassifier("dataset/haarcascade_frontalface_alt.xml")
 skip=0
 face_data = []
 labels = []
-dataset_path = './dataset/data/'
+dataset_path = 'dataset/data/'
 
 class_id = 0 #labels for given files
 names = {} #Mapping btw id and name

@@ -7,7 +7,7 @@ face_cascade = cv.CascadeClassifier("dataset/haarcascade_frontalface_alt.xml")
 
 skip=0
 face_data = []
-dataset_path = './dataset/data/'
+dataset_path = 'dataset/data/'
 file_name=input("Enter the name of user: s")
 
 

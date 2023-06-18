@@ -1,7 +1,7 @@
 # pip install opencv-python
 import cv2
 
-haarCascade = 'dateset/haarcascade_frontalface_alt.xml'
+haarCascade = 'Opencv/dateset/haarcascade_frontalface_alt.xml'
 print(haarCascade)
 cap = cv2.VideoCapture(0)
 
